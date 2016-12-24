@@ -1,10 +1,10 @@
 /*
- * JB Type                 2.0.4
+ * JB Type                 2.6.0
  * @package                 JCE
  * @url                     http://www.joomlacontenteditor.net
- * @copyright               Copyright (C) 2006 - 2012 Ryan Demmer. All rights reserved
+ * @copyright               Copyright (C) 2006 - 2016 Ryan Demmer. All rights reserved
  * @license                 GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html
- * @date                    21 May 2012
+ * @date                    24 Decemeber 2016
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
@@ -18,7 +18,6 @@
  * NOTE : Javascript files have been compressed for speed and can be uncompressed using http://jsbeautifier.org/
  */
  (function() {
-     tinymce.PluginManager.requireLangPack('jbtype');
      var each = tinymce.each;
      var icons = new Array('jb_info', 'jb_warning', 'jb_film', 'jb_pin', 'jb_lightbulb', 'jb_recycle', 'jb_camera', 'jb_comment', 'jb_chat', 'jb_document', 'jb_accessible', 'jb_star', 'jb_heart', 'jb_previous', 'jb_cart', 'jb_sound', 'jb_new', 'jb_code', 'jb_attachment', 'jb_calculator', 'jb_cut', 'jb_dollar', 'jb_pound', 'jb_euro', 'jb_mail', 'jb_support', 'jb_next');
      var boxes = new Array('jb_blackbox', 'jb_greenbox', 'jb_bluebox', 'jb_redbox', 'jb_yellowbox', 'jb_brownbox', 'jb_purplebox');
