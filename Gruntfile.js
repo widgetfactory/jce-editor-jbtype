@@ -24,16 +24,6 @@ module.exports = function(grunt) {
 
         dest: '<%= tmp %>/<%= pkg.version_clean %>/',
 
-        /* Remove existing final build */
-        shell: {
-            clean: {
-                command: 'rm -rf ../../Releases/plugins/<%= pkg.version_clean %>'
-            },
-            copy: {
-                command: 'cp -r <%= tmp %>/<%= pkg.version_clean %> ../../Releases/plugins/<%= pkg.version_clean %>'
-            }
-        },
-
         clean: {
             start: ['<%= tmp %>/<%= pkg.version_clean %>']
         },
@@ -150,8 +140,6 @@ module.exports = function(grunt) {
 
         watch: {}
     });
-
-    //grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.loadNpmTasks('../../../../node_modules/grunt-shell');
     grunt.loadNpmTasks('../../../../node_modules/grunt-contrib-concat');
