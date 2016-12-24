@@ -1,0 +1,39 @@
+{
+    "name": "editor-jbtype",
+    "version": "2.6.0",
+    "development": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/widgetfactory/jce-editor-jbtype.git"
+    },
+    "description": "Amazon S3 FileSystem for the JCE Editor",
+    "author": "Ryan Demmer <info@joomlacontenteditor.net>",
+    "copyright": "Copyright (C) 2006 - 2016 Ryan Demmer. All rights reserved",
+    "email": "info@joomlacontenteditor.net",
+    "licence": "GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html",
+    "bugs": {
+        "url": ""
+    },
+    "private": true,
+    "engines": {
+        "node": ">=0.10.26"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-clean": "~0.6.0",
+        "grunt-contrib-connect": "~0.8.0",
+        "grunt-contrib-copy": "^0.8.2",
+        "grunt-contrib-concat": "~1.0.0",
+        "grunt-contrib-less": "~1.0.0",
+        "grunt-contrib-uglify": "~0.5.1",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-contrib-compress": "~1.3.0",
+        "grunt-contrib-cssmin": "~1.0.2",
+        "grunt-eslint": "~18.0.0",
+        "grunt-string-replace": "^1.3.0",
+        "load-grunt-tasks": "~0.6.0",
+        "moxie-zip": "~0.0.3",
+        "grunt-shell": "~1.3.1",
+        "grunt-replace": "~1.0.1"
+    }
+}
