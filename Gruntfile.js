@@ -53,17 +53,15 @@ module.exports = function(grunt) {
 
                     /* Languages */
                     {
-                        expand: true,
-                        cwd: '<%= root %>/administrator/language/en-GB/',
-                        src: ['en-GB.plg_jce_filesystem-s3.ini', 'en-GB.plg_jce_filesystem-s3.sys.ini'],
+                        src: ['en-GB.plg_jce_editor-jbtype.ini', 'en-GB.plg_jce_editor-jbtype.sys.ini'],
                         dest: '<%= tmp %>/<%= pkg.version_clean %>/administrator/language/en-GB/'
                     },
                     
                     /* Manifest */
                     {
                         expand: true,
-                        cwd: '<%= root %>/plugins/jce/filesystem-s3/',
-                        src: 'filesystem-s3.xml',
+                        cwd: '<%= root %>/plugins/jce/editor-jbtype/',
+                        src: 'editor-jbtype.xml',
                         dest: '<%= tmp %>/<%= pkg.version_clean %>/'
                     }
                 ]
