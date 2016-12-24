@@ -1,24 +1,23 @@
 <?xml version="1.0" ?>
 <extension version="2.5" type="plugin" group="jce" method="upgrade">
 	<name>PLG_JCE_EDITOR_JBTYPE_TITLE</name>
-	<version>3.0.0</version>
-	<creationDate>December 2016</creationDate>
-	<author>Ryan Demmer</author>
-	<authorUrl>http://www.joomlacontenteditor.net/</authorUrl>
-	<copyright>2010 - 2016 Ryan Demmer. All rights reserved.</copyright>
-	<license>GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>@@version@@</version>
+	<creationDate>@@date@@</creationDate>
+	<author>@@author@@</author>
+	<authorUrl>https://www.joomlacontenteditor.net/</authorUrl>
+	<copyright>@@copyright@@</copyright>
+	<license>@@licence@@</license>
 	<description>PLG_JCE_EDITOR_JBTYPE_DESC</description>
 	<icon>jbtype</icon>
-	<files>
+	<files folder="plugins/jce/editor-jbtype">
 		<file plugin="editor-jbtype">editor-jbtype.php</file>
 		<file>editor_plugin.js</file>
 		<folder>classes</folder>
 		<folder>css</folder>
 		<folder>img</folder>
-		<folder>langs</folder>
 	</files>
 	<params></params>
-	<languages>
+	<languages folder="administrator/language/en-GB">
 		<language tag="en-GB">en-GB.plg_jce_editor_jbtype.ini</language>
 		<language tag="en-GB">en-GB.plg_jce_editor_jbtype.sys.ini</language>
 	</languages>

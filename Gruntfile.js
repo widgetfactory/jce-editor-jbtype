@@ -44,24 +44,23 @@ module.exports = function(grunt) {
                     /* Plugin */
                     {
                         src: '**',
-                        dest: '<%= tmp %>/<%= pkg.version_clean %>/plugins/jce/filesystem-s3/',
+                        dest: '<%= tmp %>/<%= pkg.version_clean %>/plugins/jce/<%= pkg.name %>/',
                         filter: function(filepath) {
-                        	return /^(build|Gruntfile\.js|package\.json)/.test(filepath) === false;
-                            //return filter(filepath);
+                        	return /^(build|Gruntfile\.js|package\.json|en-GB\.plg_jce_)/.test(filepath) === false;
                         }
                     },
 
                     /* Languages */
                     {
-                        src: ['en-GB.plg_jce_editor-jbtype.ini', 'en-GB.plg_jce_editor-jbtype.sys.ini'],
+                        src: ['en-GB.plg_jce_<%= pkg.name %>.ini', 'en-GB.plg_jce_<%= pkg.name %>.sys.ini'],
                         dest: '<%= tmp %>/<%= pkg.version_clean %>/administrator/language/en-GB/'
                     },
                     
                     /* Manifest */
                     {
                         expand: true,
-                        cwd: '<%= root %>/plugins/jce/editor-jbtype/',
-                        src: 'editor-jbtype.xml',
+                        cwd: '<%= root %>/plugins/jce/<%= pkg.name %>/',
+                        src: '<%= pkg.name %>.xml',
                         dest: '<%= tmp %>/<%= pkg.version_clean %>/'
                     }
                 ]
