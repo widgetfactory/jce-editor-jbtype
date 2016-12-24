@@ -18,8 +18,8 @@
 	</files>
 	<params></params>
 	<languages folder="administrator/language/en-GB">
-		<language tag="en-GB">en-GB.plg_jce_editor_jbtype.ini</language>
-		<language tag="en-GB">en-GB.plg_jce_editor_jbtype.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_jce_editor-jbtype.ini</language>
+		<language tag="en-GB">en-GB.plg_jce_editor-jbtype.sys.ini</language>
 	</languages>
 	<help></help>
 </extension>
