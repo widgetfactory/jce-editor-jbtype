@@ -10,8 +10,7 @@
 	<description>PLG_JCE_EDITOR_JBTYPE_DESC</description>
 	<icon>jbtype</icon>
 	<files folder="plugins/jce/editor-jbtype">
-		<file plugin="editor-jbtype">editor-jbtype.php</file>
-		<file>editor_plugin.js</file>
+		<file plugin="editor-jbtype">editor_plugin.js</file>
 		<folder>classes</folder>
 		<folder>css</folder>
 		<folder>img</folder>
