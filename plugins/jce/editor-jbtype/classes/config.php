@@ -12,7 +12,7 @@
  */
 class WFJbtypePluginConfig
 {
-	public function getConfig(&$settings)
+	public static function getConfig(&$settings)
 	{
 		$plugin	= JPluginHelper::getPlugin('system','jbtype');
 
